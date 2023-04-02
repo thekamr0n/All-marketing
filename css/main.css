@@ -1,0 +1,316 @@
+@import url(fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rubik;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+
+
+
+.btn{
+    color: #939393;
+    font-size: 36px;
+    transition: .4s;
+}
+
+.btn:hover{
+    color: #2A86B1;
+}
+
+.nav__list{
+    position: fixed;
+    max-width: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: 0.4s;
+    background: white;   
+}
+
+
+.nav{
+    background: white;
+}
+
+
+.nav__list:hover{
+    max-width: 234px;
+}
+
+
+.logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 51px;
+    height: 60px;
+}
+
+.nav__item{
+    margin-left: 32px;
+    display: flex;
+
+}
+
+.nav__link{
+    display: flex;
+    gap: 55px;
+    flex-direction: column;
+}
+
+.nav__ava{
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+
+.abd{
+    color: #939393;
+    display: flex;
+    align-items: center;
+    margin-left: 29px;
+}
+
+.abdc{
+    margin-left: 37px;
+    display: flex;
+    align-items: center;
+    color: #939393;
+    margin-right: 35px;
+}
+
+.abd:hover{
+    color: #2A86B1;
+}
+
+
+.abdc:hover{
+    color: #2A86B1;
+}
+
+/* header */
+
+body{
+    background: #E5E5E5;
+}
+
+header{
+    background-image: url(../img/background.png);
+    max-width: 1110px;
+    width: 100%;
+}
+
+
+
+
+.header__h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #464748;
+    max-width: 333px;
+    width: 100%;
+    margin-bottom: 25px;
+    font-family: "Rubik-Bold"
+}
+
+.header__content{
+    color:#696868;
+    max-width: 314px;
+    margin-bottom: 25px;
+}
+
+
+.more{
+    background: #2A86B1;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    padding: 7px 0;
+    max-width: 211px;
+    width: 100%;
+    transition: 0.4s;
+}
+
+
+
+.header__item{
+    color: white;
+    text-align: center;
+}
+
+.header__list{
+    padding-bottom: 111px;
+    padding: 111px;
+    background-image: url(../img/bg.png);
+    border-radius: 14px;
+}
+
+
+.section__list{
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.screen{
+    width: 100px;
+    height: 93px;
+    margin-top: 59px;
+    margin-bottom: 70px;
+}
+
+
+.section__list-p{
+    color: #3FA5D5;
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: "Rubik-Bold";
+}
+
+
+.sections{
+    margin-bottom: 19px;
+    width: 211px;
+}
+
+
+.section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.section2__link1-h2{
+    color: #686868;
+    font-size: 20px;
+    line-height: 23.7px;
+    font-family: "Rubik-Bold";
+    margin-top: 48px;
+    margin-bottom: 22px;
+}
+
+.section2__link1-p{
+    padding: 15px;
+    background: #fff;
+    color: #545454;
+    border-radius: 8px;
+    line-height: 18.96px;
+    font-family: "Rubik";
+    margin-bottom: 15px;
+    max-width: 825px;
+    height: 124px;
+    line-height: 18.96px;
+}
+
+
+.section2__item{
+    display: flex;
+    max-width: 255px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    height: 89px;
+    margin-bottom: 15px;
+}
+
+.section2__item-p{
+    color: #323232;
+    font-size: 17px;
+    font-family: "Rubik-Italic";
+
+}
+
+
+.section2__item-p2{
+    color: #000000;
+    font-size: 14px;
+    max-width: 155px;
+}
+
+.section2__link2-h2{
+    margin-right: 15px;
+    margin-top: 48px;
+    margin-bottom: 18px;
+    color: #686868;
+    font-family: "Rubik-Bold";
+}
+
+.section2__link2{
+    max-width: 260px;
+    margin-left: 30px;
+}
+
+
+.section2__item-img{
+    margin-right: 15px;
+    height: 55px;
+    width: 55px;
+}
+
+.section2__list{
+    display: flex;
+}
+
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer{
+    background: #3FA5D5;
+    height: 140px;
+}
+
+.footer_p{
+    font-family: "Rubik-Bold";
+    font-size: 50px;
+    line-height: 59.25px;
+    color: #fff;
+    margin: 40px 0;
+}
+
+.call{
+    font-size: 18px;
+    font-family: "Rubik-Bold";
+    color: #fff;
+
+}
+
+.email{
+    color: #fff;
+    margin-top: 15px;
+}
+
+.footer__link{
+    margin-top: 42px;
+}
+
+
